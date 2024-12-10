@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply grid px-3.5 place-items-center h-dvh bg-dark-blue text-slate-50;
+  font-family: "Manrope", system-ui, sans-serif;
+}
+
+.advice-wrapper {
+  @apply relative p-5 pt-10 pb-16 md:px-8 mx-auto text-center rounded-2xl bg-dark-grayish-blue;
+  width: min(100% - 2rem, 28.125rem);
+}
+
+.advice-quote {
+  @apply mt-5 mb-7 text-2xl font-extrabold text-light-cyan;
+}
+
+.advice-generate-button {
+  @apply absolute p-4 left-1/2 -bottom-6 -translate-x-1/2 bg-neon-green select-none rounded-full transition-shadow shadow-flat shadow-transparent hover:shadow-neon-green active:scale-95 focus-visible:outline-none focus-visible:shadow-neon-green;
+}
+
+.advice-generate-button[disabled] {
+  @apply shadow-none scale-100;
+}

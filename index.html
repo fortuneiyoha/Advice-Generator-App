@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dist/style.css">
+  <script src="/assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <main class="advice-wrapper">
+    <h1 class="sr-only">Advice Generator App</h1>
+
+    <section class="advice-wrapper-body">
+      <p class="text-emerald-400 text-xs font-extrabold tracking-[.3em]">
+        ADVICE #<span class="advice-id js-advice-id">117</span>
+      </p>
+
+      <h2 class="advice-quote js-advice-quote">
+        <q>It is easy to sit up and take notice, what's difficult is getting up and taking action.</q>
+      </h2>
+
+      <div class="advice-wrapper-divider">
+        <picture>
+          <source media="(min-width: 48rem)" srcset="/assets/images/pattern-divider-desktop.svg">
+          <img src="/assets/images/pattern-divider-mobile.svg" alt="" class="mx-auto select-none">
+        </picture>
+      </div>
+
+      <button type="button" class="advice-generate-button js-advice-generate-button">
+        <span class="sr-only">Generate an advice</span>
+        <img src="/assets/images/icon-dice.svg" alt="">
+      </button>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+# Avoid accidental upload of package files
+node_modules
