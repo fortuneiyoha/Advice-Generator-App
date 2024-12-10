@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution:** [Frontend Mentor - Advice Generator App](https://www.frontendmentor.io/solutions/...) 🛠️
-- **Live Site:** [View Live Site - Advice Generator App](https://advice-generator-app.pages.dev/) 🌐✨
+- **Solution:** [Frontend Mentor - Advice Generator App](https://www.frontendmentor.io/solutions/advice-generator-app-tvM8xbKama) 🛠️
+- **Live Site:** [View Live Site - Advice Generator App](https://advice-generator-app-9eb.pages.dev/) 🌐✨
 
 ## My process
 
